@@ -44,7 +44,6 @@ class Solution(object):
         """
         p1 = 0
         p2 = 0
-        c = 0
         
         if nums:            
             while p2 < len(nums):
@@ -54,5 +53,4 @@ class Solution(object):
                     nums[p1] = nums[p2]
                     p1 += 1
                     p2 += 1
-                    c  += 1
-        return c
+        return p1
